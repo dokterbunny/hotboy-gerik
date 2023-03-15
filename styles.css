@@ -1,0 +1,21 @@
+
+
+h2 {
+    text-align: right;
+    color: blue;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgb(255, 22, 22);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.kut{
+font-family: monospace;
+}
+.sunset {
+    width: 400px;
+    height: 300px;
+}
