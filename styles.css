@@ -1,20 +1,39 @@
+* {}
 
+.titlemenu {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.titlemenu h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.titlemenu a {
+    color: #3c71e4;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+.titlemenu a:hover {
+    background-color: #3c71e4;
+    color: #fff;
+}
 
 h2 {
     text-align: right;
     color: blue;
 }
 
-h1 {
-    font-size: 50px;
-    background-color: rgb(255, 22, 22);
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.kut {
+    font-family: monospace;
+}
 
-}
-.kut{
-font-family: monospace;
-}
 .sunset {
     width: 400px;
     height: 300px;
