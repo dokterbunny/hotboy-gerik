@@ -1,5 +1,9 @@
 * {}
 
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .titlemenu {
     background-color: #f1f1f1;
     width: 100%;
@@ -12,7 +16,7 @@
     color: #000;
 }
 
-.titlemenu a {
+.page {
     color: #3c71e4;
     text-decoration: none;
     padding: 10px;
@@ -20,9 +24,28 @@
     border-radius: 10px;
 }
 
-.titlemenu a:hover {
+.page:hover {
     background-color: #3c71e4;
     color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page:active {
+    background-color: #0482ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.activepage {
+    background-color: #002370;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -35,6 +58,6 @@ h2 {
 }
 
 .sunset {
-    width: 400px;
+    width: 800px;
     height: 300px;
 }
